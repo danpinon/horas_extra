@@ -17,12 +17,19 @@ El programa debe arrojar el nombre del empleado y el total de horas extra por pa
 
 ## Pseudocódigo
 
-Inicio
-    Leer nombre de empleado y asignar input a variable name
-    Leer sueldo diario de empleado y asignar input a variable dailySalary
-    Leer número de horas extra por trabajar y asignar a variable totalExtraHours
-    extraHourCost = dailySalary / 8 * 1.05
-    totalHoursToPay = extraHourCost * totalExtraHours
-    Imprimir name y totalHoursToPay
-Fin
+    Inicio
+
+        Leer nombre de empleado y asignar input a variable name
+
+        Leer sueldo diario de empleado y asignar input a variable dailySalary
+
+        Leer número de horas extra por trabajar y asignar a variable totalExtraHours
+
+        extraHourCost = dailySalary / 8 * 1.05
+
+        totalHoursToPay = extraHourCost * totalExtraHours
+
+        Imprimir name y totalHoursToPay
+
+    Fin
 
